@@ -1,12 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cambio en el titulo</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera pagina web</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+    <!-- Inicio header -->
+    <header class="header">
+    <!-- Menu -->
+        <section class="barra-superior">
+            <div class="titulo-principal">
+                <h1>Título principal</h1>
+            </div>
+            <nav class="contenedor-menu">
+                <ul class="menu-principal">
+                    <li class="menu-principal__item"><a href="#">Inicio</a></li>
+                    <li class="menu-principal__item"><a href="#services">Servicios</a></li>
+                    <li class="menu-principal__item"><a href="#news">Noticias</a></li>
+                    <li class="menu-principal__item"><a href="#team">Miembros</a></li>
+                </ul>
+            </nav>
+
+        </section >
+        <!-- Fin Menu -->
+        <!-- Banner -->
+        <section class="banner">
+            <h2 class="banner__titulo">Here goes an image</h2>
+            <img class="banner__imagen" src="https://placeimg.com/1200/500/any">
+        </section>
+        <!-- Fin banner -->
+
+    </header>
+    <!-- Fin header -->
+
+    <!-- Inicio main -->
+    <main>
+        <!-- Servicios -->
+        <section id="services" class="servicios">
+            <div class="servicios__contenedor">
+                <img src="https://placeimg.com/300/400/animals" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio nisi sunt quaerat, adipisci nobis ratione vitae dicta tenetur, totam itaque, dolores ipsum consequatur quam nam cupiditate officia! Officia, ratione doloremque.</p>
+                <a href="#">Abrir</a>
+            </div>
+            <div class="servicios__contenedor">
+                <img src="https://placeimg.com/300/400/animals" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium temporibus voluptates voluptate tempore, eius sapiente ut magni deserunt doloribus repudiandae doloremque rerum totam blanditiis, dolor suscipit! Veniam, sint ducimus. Dolor?</p>
+                <a href="#">Abrir</a>
+            </div>
+            <div class="servicios__contenedor">
+                <img src="https://placeimg.com/300/400/animals" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident animi impedit a natus suscipit veniam eveniet totam, nisi quia reiciendis sequi ipsam quos ratione optio, vitae eaque doloremque! Ratione, quas.</p>
+                <a href="#">Abrir</a>
+            </div>
+
+        </section>
+        <!-- Fin servicios -->
+
+        <!-- Noticias -->
+        <section id="news" class="noticias">
+            <!-- Bloque 1 -->
+            <div>
+                <div class="noticia">
+                    
+                    <img src="https://placeimg.com/300/200/architecture" alt="">
+                    <div>
+                        <h2>Noticia</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt fugiat tempora ipsum molestias alias voluptates ipsam enim, pariatur maxime! Esse cumque, rerum sunt eius illo quisquam dolores enim sapiente vel.</p>
+                        <a href="#">Abrir</a>
+                    </div>
+                </div>
+                <div class="noticia">
+                    <img src="https://placeimg.com/300/200/animals" alt="">
+                    <div>
+                        <h2>Noticia</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt fugiat tempora ipsum molestias alias voluptates ipsam enim, pariatur maxime! Esse cumque, rerum sunt eius illo quisquam dolores enim sapiente vel.</p>
+                        <a href="#">Abrir</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bloque 2 -->
+            <div>
+                <div class="noticia">
+                    <img src="https://placeimg.com/300/200/animals" alt="">
+                    <div>
+                        <h2>Noticia</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt fugiat tempora ipsum molestias alias voluptates ipsam enim, pariatur maxime! Esse cumque, rerum sunt eius illo quisquam dolores enim sapiente vel.</p>
+                        <a href="#">Abrir</a>
+                    </div>
+                </div>
+                <div class="noticia">
+                    <img src="https://placeimg.com/300/200/animals" alt="">
+                    <div>
+                        <h2>Noticia</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt fugiat tempora ipsum molestias alias voluptates ipsam enim, pariatur maxime! Esse cumque, rerum sunt eius illo quisquam dolores enim sapiente vel.</p>
+                        <a href="#">Abrir</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- Fin noticias -->
+
+        <!-- Equipo -->
+        <section id="team" class="miembros">
+            <div>
+                <img src="https://placeimg.com/300/200/animals" alt="">
+                <h2>Nombre miembro</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor quo eaque at earum eum suscipit nobis iure ipsa deleniti ullam laborum vel quas illo non voluptatibus, facere magnam doloribus tempore?</p>
+            </div>
+
+        </section>
+        <!-- Fin equipo -->
+
+    </main>
+    <!-- Fin Main -->
+
+    <!-- Inicio footer -->
+    <footer class="footer">
+        <div>
+            <h2>Soy el lado izquierdo del footer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea numquam incidunt quaerat architecto quae omnis ut dolores? Laboriosam dolores earum distinctio voluptas amet quia, eligendi eos, iusto deserunt, perferendis qui!</p>
+        </div>
+        <div>
+            <h2>Soy el lado derecho del footer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat aperiam sed fugit culpa distinctio aut asperiores fuga ab tempore. Velit qui minus voluptas perferendis, exercitationem quidem eaque vero quisquam aliquid!</p>
+        </div>
+
+    </footer>
+    <!-- Fin footer -->
+
+
 </body>
 </html>
