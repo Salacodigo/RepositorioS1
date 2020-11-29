@@ -1,0 +1,178 @@
+a:link, a:visited, a:active {
+  text-decoration:none;
+}
+
+/*
+////////////
+BODY
+////////////
+*/
+
+body{
+  font-family: sans-serif;
+  width: 1200px;
+  margin-right: auto;
+  margin-left:auto ;
+}
+
+/*
+////////////
+INICIO
+////////////
+*/
+
+.header{
+  background-color: #2E4053 ;
+  padding-bottom: 60px;
+  z-index: 0;
+}
+
+
+.barra-superior{
+  display: flex;
+  align-items: center;
+  height: 100px;
+
+}
+
+.titulo-principal{
+  width: 50%;
+  color: #EBEDEF;
+  padding-left:10% ;
+}
+
+
+.contenedor-menu{
+  width: 50%;
+  z-index: 5;
+}
+
+.menu-principal{
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.menu-principal__item > a{
+  text-decoration: none;
+  color: #EBEDEF;
+}
+
+.menu-principal__item > a:hover{
+  font-size: 20px;
+  text-decoration: underline;
+  color: #F8F9F9;
+
+}
+
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.banner__imagenfondo{
+  position: absolute;
+  width: 1200px;
+  z-index: 1;
+  opacity: 5%;
+
+}
+
+.banner__imagen{
+  
+}
+
+.banner__titulo{
+  position: absolute;
+  color: #F8F9F9;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+
+/*
+////////////
+SERVICIOS
+////////////
+*/
+
+.servicios-title{
+  position: absolute;
+  color: #2E4053;
+  margin-left: 540px;
+
+}
+
+.servicios-lista{
+  background-color: #D6DBDF;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  z-index: 5;
+  
+}
+
+.servicios__contenedor{
+  width: 250px;
+  padding: 15px;
+
+}
+
+.imagen__servicios{
+  height: 400px;
+  border-radius: 25px;
+}
+
+.servicios__descripcion{
+  height: 30px;
+}
+
+.servicios__contenedor > a{
+  text-decoration: none;
+  color: #2E4053 ;
+}
+
+.servicios__contenedor > a:hover{
+  font-size: 20px;
+  color: #2E4053 ;
+}
+
+
+/*
+////////////
+NOTICIAS
+////////////
+*/
+
+.noticias{
+  background-color: chartreuse;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.noticia{
+  display: flex;
+}
+
+/*
+////////////
+TEAM
+////////////
+*/
+
+.miembros{
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+}
+
+
+.footer{
+  display: flex;
+}
