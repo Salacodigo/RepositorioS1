@@ -42,6 +42,7 @@ INICIO
 }
 
 
+
 .contenedor-menu{
   width: 50%;
   z-index: 5;
@@ -90,6 +91,12 @@ INICIO
   text-align: center;
   font-size: 40px;
   font-weight: 800;
+  transition: 1s;
+}
+
+.banner__titulo:focus{
+  font-size: 50px; 
+  color:white;
 }
 
 
@@ -124,7 +131,13 @@ SERVICIOS
 }
 
 .imagen__servicios{
-  height: 400px;
+  height: 380px;
+  border-radius: 25px;
+  transition: 1s;
+}
+
+.imagen__servicios:hover{
+  height: 430px;
   border-radius: 25px;
 }
 
@@ -148,16 +161,71 @@ SERVICIOS
 NOTICIAS
 ////////////
 */
+.noticias-title{
+  position: absolute;
+  color: orange;
+  margin-left: 500px;
+  z-index: 6;
 
-.noticias{
-  background-color: chartreuse;
+}
+
+.noticias-contenedor{
+  padding-top: 80px;
+  background-color: #641E16;
   display: flex;
   justify-content: space-evenly;
   text-align: center;
+  color: yellow;
+  line-height: 25px;
+  
+  
 }
 
 .noticia{
   display: flex;
+  margin: 85px 50px;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.noticia__img{
+  position: absolute;
+  height: 270px;
+  z-index: 4;
+  opacity: 40%;
+  border-radius: 25px;
+  
+}
+
+
+.contenido__noticia{
+  margin: 25px 0px;
+  width: 380px;
+  border-radius: 15px;
+  border: 3px solid red;
+  z-index: 5;
+  font-weight: 200;
+  font-size: 18px;
+  opacity: 0%;
+  transition: 0.5s;
+  
+}
+
+.contenido__noticia:hover{
+  opacity: 100%;
+  
+}
+
+.contenido__noticia > a{
+  text-decoration: none;
+  color: white ;
+}
+
+.contenido__noticia > a:hover{
+  font-size: 20px;
+  color:yellow ;
 }
 
 /*
@@ -166,13 +234,90 @@ TEAM
 ////////////
 */
 
+.team-title{
+  position: absolute;
+  color: 2E4053;
+  margin-left: 550px;
+  z-index: 6;
+
+}
+
 .miembros{
-  background-color: orange;
+  background-color: #EBEDEF;
   display: flex;
+  padding-top: 80px;
+  padding-bottom: 30px ;
   justify-content: center;
 }
+
+.team__description{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.member-description{
+  margin: 40px;
+}
+
+.picture{
+  width: 250px;
+  transition: 1s;
+  border-radius: 25px;
+}
+
+.picture:hover{
+  width: 300px;
+
+}
+
+.contacto{
+  color: gray;
+}
+
+.member-description > a{
+  color: gray;
+  transition: 0.5s;
+}
+
+.member-description > a:hover{
+  color: darkblue ;
+  font-size: 20px;
+}
+
+/*
+////////////
+Footer
+////////////
+*/
 
 
 .footer{
   display: flex;
+}
+
+.content-footer > h2{
+  font-size: 17px;
+}
+
+.contacto{
+  margin: 30px;
+}
+
+.content-footer{
+  width: 50%;
+  margin: 40px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.content-footer> a{
+  color: gray;
+  transition: 0.5s;
+}
+
+.content-footer > a:hover{
+  color: darkblue ;
+  font-size: 20px;
 }
